@@ -1,16 +1,4 @@
-@media screen and (max-width:2560px) {
-    .bg-fog-section {
-        background-size: cover
-    }
-}
-
-@media screen and (max-width:1366px) {
-    .bg-fog-section {
-        background-size: unset
-    }
-}
-
-@media screen and (max-width:1240px) {
+@media screen and (max-width:1200px) {
     .chris-detail-wrapper {
         padding-left: 5%
     }
@@ -62,19 +50,12 @@
         line-height: 2.5rem
     }
 
-    .test-info {
-        text-align: center
-    }
-
-    .test-info img {
-        float: unset;
-        margin: 0 auto;
-        width: 30% !important;
-        padding-bottom: 20px
+    .chris-detailporto {
+        padding:12px;
     }
 }
 
-@media (max-width:990px) {
+@media (max-width:992px) {
     .head-section {
         background-position: center !important
     }
@@ -119,7 +100,7 @@
     }
 
     .logo-chris img {
-        width: 80%;
+        width: 70%;
         padding-top: 12px;
         padding-left: 0
     }
@@ -129,11 +110,14 @@
         z-index: 0
     }
 
-    .lang {
-        position: absolute;
-        right: 80px;
-        height: 25px;
-        bottom: 0
+    .chris-detailporto {
+        padding: 40px;
+    }
+
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1
     }
 }
 
@@ -164,11 +148,6 @@
         display: none
     }
 
-    .gallery {
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1
-    }
 }
 
 @media only screen and (max-width:690px) {
@@ -242,6 +221,10 @@
         z-index: 0;
         margin-top: 30px
     }
+
+    .chris-detailporto {
+        padding: 12px;
+    }
 }
 
 @media only screen and (max-width:580px) {
@@ -284,11 +267,15 @@
     .chris-project-wrapper {
         padding-top: 30px
     }
+
+    .chris-detailporto {
+        padding: 12px;
+    }
 }
 
 @media (max-width:480px) {
     .chris-detailporto>h3 {
-        font-size: 15px;
+        font-size: 25px;
         line-height: 2rem
     }
 
@@ -298,7 +285,15 @@
         margin-bottom: 20px
     }
 
+    .chris-detailporto>p {
+        display: none;
+    }
+
     .chris-project-wrapper {
         padding-top: 30px
+    }
+
+    .chris-detailporto {
+        padding: 30px;
     }
 }
