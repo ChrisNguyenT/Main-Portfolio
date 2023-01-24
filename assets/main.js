@@ -75,7 +75,7 @@ const chrisInit = (function () {
             });
             magnific();
             portofolio();
-            AOS.init();
+            AOS.init({ disable: 'mobile' });
         });
         window.addEventListener("scroll", (e) => {
             var st = $(window).scrollTop();
