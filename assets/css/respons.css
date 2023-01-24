@@ -1,0 +1,304 @@
+@media screen and (max-width:2560px) {
+    .bg-fog-section {
+        background-size: cover
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .bg-fog-section {
+        background-size: unset
+    }
+}
+
+@media screen and (max-width:1240px) {
+    .chris-detail-wrapper {
+        padding-left: 5%
+    }
+
+    .chris-project-wrapper {
+        padding-left: 5%
+    }
+
+    .chris-project {
+        padding-right: 5%;
+        padding-left: 5%
+    }
+
+    #hero-block.chris-detail-wrapper>h5 {
+        font-size: 15px;
+        letter-spacing: 5px;
+        text-transform: uppercase
+    }
+
+    #hero-block.chris-detail-wrapper>h1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: 15px
+    }
+
+    #hero-block.chris-detail-wrapper>p {
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 28px
+    }
+
+    .chris-project-wrapper>h5 {
+        font-size: 15px;
+        letter-spacing: 5px;
+        text-transform: uppercase
+    }
+
+    .chris-project-wrapper>h1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 5rem;
+        margin-top: 15px
+    }
+
+    .chris-project-wrapper>h3 {
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 2.5rem
+    }
+
+    .test-info {
+        text-align: center
+    }
+
+    .test-info img {
+        float: unset;
+        margin: 0 auto;
+        width: 30% !important;
+        padding-bottom: 20px
+    }
+}
+
+@media (max-width:990px) {
+    .head-section {
+        background-position: center !important
+    }
+
+    .lg::after {
+        content: " ";
+        position: absolute;
+        right: unset
+    }
+
+    .chris-detail-wrapper {
+        padding-top: 550px;
+        position: relative;
+        width: 80%;
+        z-index: 3;
+        padding-left: 5%;
+        padding-right: 5%
+    }
+
+    .align-items-center i {
+        font-size: 40px
+    }
+
+    .block-6 {
+        padding-top: 30px;
+        padding-right: 0;
+        padding-left: 0
+    }
+
+    .media-body .chris-heading {
+        font-size: 20px
+    }
+
+    .align-items-center::before {
+        top: 20px
+    }
+
+    .logo-chris {
+        width: 150px;
+        margin-left: 20px;
+        padding-left: 0
+    }
+
+    .logo-chris img {
+        width: 80%;
+        padding-top: 12px;
+        padding-left: 0
+    }
+
+    .chris-main .hero-img {
+        width: 70%;
+        z-index: 0
+    }
+
+    .lang {
+        position: absolute;
+        right: 80px;
+        height: 25px;
+        bottom: 0
+    }
+}
+
+@media (max-width:768px) {
+    .chris-main .hero-img {
+        width: 100%
+    }
+
+    #hero-block.chris-detail-wrapper>h1 {
+        font-weight: 900;
+        font-size: 35px;
+        line-height: 40px;
+        margin-top: 15px
+    }
+
+    #hero-block.chris-detail-wrapper>p {
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 23px
+    }
+
+    .logo-chris {
+        width: 100px;
+        margin-left: 10px
+    }
+
+    .icon-scroll {
+        display: none
+    }
+
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1
+    }
+}
+
+@media only screen and (max-width:690px) {
+    .chris-detail-wrapper {
+        padding-top: 450px;
+        width: 90%;
+        padding-left: 5%
+    }
+
+    #hero-block.chris-detail-wrapper>h5 {
+        font-size: 15px;
+        letter-spacing: 5px;
+        text-transform: uppercase
+    }
+
+    #hero-block.chris-detail-wrapper>h1 {
+        font-weight: 900;
+        font-size: 35px;
+        line-height: 40px;
+        margin-top: 15px
+    }
+
+    #hero-block.chris-detail-wrapper>p {
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 23px
+    }
+
+    .chris-project-wrapper>h5 {
+        font-size: 15px;
+        letter-spacing: 5px;
+        text-transform: uppercase
+    }
+
+    .chris-project-wrapper>h1 {
+        font-weight: 900;
+        font-size: 35px;
+        line-height: 4rem;
+        margin-top: 15px;
+        margin-bottom: 50px
+    }
+
+    .chris-project-wrapper>h3 {
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 2rem
+    }
+
+    .chris-service-wrapper>h5 {
+        font-size: 15px;
+        letter-spacing: 5px;
+        text-transform: uppercase
+    }
+
+    .chris-service-wrapper>h1 {
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 4rem;
+        margin-top: 15px;
+        margin-bottom: 50px
+    }
+
+    .chris-service-wrapper>h3 {
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 2rem
+    }
+
+    .chris-main .hero-img {
+        width: 100%;
+        z-index: 0;
+        margin-top: 30px
+    }
+}
+
+@media only screen and (max-width:580px) {
+    #hero-block.chris-detail-wrapper>h5 {
+        font-size: 13px;
+        letter-spacing: 5px;
+        text-transform: uppercase
+    }
+
+    .chris-project-wrapper>h5 {
+        font-size: 15px;
+        letter-spacing: 5px;
+        text-transform: uppercase
+    }
+
+    .chris-project-wrapper>h1 {
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 20px;
+        margin-top: 15px;
+        margin-bottom: 50px
+    }
+
+    .chris-project-wrapper>h3 {
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 1.8rem
+    }
+
+    .chris-detailporto>h3 {
+        font-size: 30px;
+        line-height: 35px
+    }
+
+    .chris-detailporto>a {
+        font-size: 15px;
+        line-height: 2.3rem
+    }
+
+    .chris-project-wrapper {
+        padding-top: 30px
+    }
+}
+
+@media (max-width:480px) {
+    .chris-detailporto>h3 {
+        font-size: 15px;
+        line-height: 2rem
+    }
+
+    .chris-detailporto>h2 {
+        font-size: 12px;
+        line-height: 1.8rem;
+        margin-bottom: 20px
+    }
+
+    .chris-project-wrapper {
+        padding-top: 30px
+    }
+}
